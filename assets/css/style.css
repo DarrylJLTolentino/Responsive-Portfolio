@@ -198,7 +198,7 @@ footer {
         width: 100%;
     }
     .content {
-        width: 600px;
+        width: 95%;
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -214,14 +214,24 @@ footer {
     }
 
     section {
-        width: 90%;
+        width: 95%;
         margin-left: 10px;
         margin-right: 10px;
     }
 }
 
 @media only screen and (max-width: 640px) {
-    /* header {
-        width: 100
-    } */
+    #header {
+        float: none;
+        text-align: center;
+    }
+
+    nav {
+        float: none;
+        padding-left: 120px;
+    }
+
+    section {
+        width: 95%;
+    }
 }

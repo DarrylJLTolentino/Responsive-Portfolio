@@ -18,7 +18,7 @@ body {
     height: 85px;
 }
 
-.content {
+.content, .nav-content {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
@@ -94,7 +94,7 @@ h2 {
 #portrait {
     width: 200px;
     height: 200px;
-    margin: 0px 25px 0px 25px;
+    margin: 35px 25px 0px 25px;
     float: left;
 }
 
@@ -191,4 +191,37 @@ footer {
     border-top: 8px solid #4aaaa5;
     margin-top: 20px;
     margin-bottom: 0px;
+}
+
+@media screen and (max-width: 980px) {
+    header {
+        width: 100%;
+    }
+    .content {
+        width: 600px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .nav-content {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* header {
+        width: 100%;
+    }
+
+    section {
+        width: 90%;
+        margin-left: 10px;
+        margin-right: 10px;
+    } */
+}
+
+@media only screen and (max-width: 640px) {
+    /* header {
+        width: 100
+    } */
 }

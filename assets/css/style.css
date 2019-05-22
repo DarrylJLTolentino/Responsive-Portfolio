@@ -114,6 +114,7 @@ p {
     position: relative;
     text-align: center;
     width: 100%;
+    margin-top: 30px;
 }
 
 img {
@@ -137,13 +138,11 @@ img {
 
 .image-label {
     position: absolute;
-    left: 26px;
-    bottom: 0;
+    left: 25px;
+    bottom: 35px;
     z-index: 1;
     background-color: #4aaaa5;
     color: white;
-    margin-right: 40px;
-    margin-bottom: 30px;
     font-size: 14px;
     padding: 10px 73px 10px 73px;
     white-space: nowrap;
@@ -198,13 +197,29 @@ footer {
         width: 100%;
     }
     .content {
-        width: 95%;
+        width: 600px;
         margin-left: 10px;
         margin-right: 10px;
     }
 
     .nav-content {
         width: 100%;
+    }
+
+    .portfolio {
+        width: 500px;        
+    }
+    
+    .portfolio-container {
+        position: relative;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    #image-2, #image-4 {
+        float: right;
+        margin-right: 30px;
     }
 }
 
@@ -213,11 +228,43 @@ footer {
         width: 100%;
     }
 
-    section {
-        width: 95%;
+    .content {
+        width: 90%;
         margin-left: 10px;
         margin-right: 10px;
     }
+
+    h1 {
+        margin-bottom: 0;
+    }
+
+    h2 {
+        margin-right: 0;
+        padding-right: 0;
+        width: 90%;
+    }
+
+    p {
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .portfolio {
+        width: 700px;        
+    }
+    
+    .portfolio-container {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        
+    }
+
+    #image-2, #image-4 {
+        float: right;
+        margin-right: 30px;
+    }
+
 }
 
 @media only screen and (max-width: 640px) {
@@ -226,12 +273,71 @@ footer {
         text-align: center;
     }
 
+    h1 {
+        margin-bottom: 0;
+    }
+
+    h2 {
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    p {
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    #headerBackground {
+        height: 135px;
+    }
+
     nav {
         float: none;
         padding-left: 120px;
+        text-align: center;
+        margin-top: -8px;
     }
 
-    section {
-        width: 95%;
+    .content {
+        width: 400px;
+        padding-bottom: 40px;
     }
+
+    .portfolio {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;   
+        margin-top: 10px;
+    }
+    
+    .portfolio-container {
+        text-align: center;
+        width: 90%;
+        height: auto;
+        margin: 0;
+    }
+
+    #image-1, #image-2, #image-3, #image-4 , #image-5{
+        float: none;
+    }
+
+    #image-2, #image-3, #image-4 , #image-5 {
+        margin-top: 0px;
+    }
+
+    img {
+        width: 95%;
+        height: auto;
+        margin-left: 0;
+        top: 20px;
+        right: -20px;
+    }
+
+    .image-label {
+        width: 95%;
+        margin-left: -4px;
+        left: 33px;
+        bottom: -5px;
+    }
+
 }

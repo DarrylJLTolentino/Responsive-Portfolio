@@ -18,3 +18,8 @@ The About Me page has a photo of myself and a description of who I am as a devel
 ## Versioning
 - [Github](https://github.com/)
 
+## Author
+- Darryl Tolentino
+
+## Acknowledgements
+- Jake Dudum: For help with responsiveness of the portfolio

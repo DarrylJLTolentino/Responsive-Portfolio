@@ -148,6 +148,18 @@ img {
     white-space: nowrap;
 }
 
+#image-label1 {
+    position: absolute;
+    left: 25px;
+    bottom: 35px;
+    z-index: 1;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 14px;
+    padding: 10px 95px 10px 95px;
+    white-space: nowrap;
+}
+
 form {
     margin-left: 10px;
 }
